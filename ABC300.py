@@ -1,9 +1,8 @@
-#A
-N,A,B = map(int,input().split())
-count = 0
-c = list(map(int,input().split()))
-for i in c:
-    if i == A+B:
-        ddd = c.index(A+B)
-        count = 1+ddd
-print(count)
+# A
+# N = input()
+# for i in N:
+#   print(i)
+#   if (i==3) or (int(N)%3==0):
+#     print("YES")
+#   else:
+#     print("NO")
