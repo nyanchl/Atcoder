@@ -17,13 +17,21 @@
         
 #     print(judge)
 
-n, q = map(int, input().split())
-P = [0]*n
-for _ in range(q):
-  e, x = map(int, input().split())
-  if e == 1:
-    P[x-1] += 1
-  elif e == 2:
-    P[x-1] = 2
-  else:
-    print('Yes' if P[x-1] == 2 else 'No')
+# n, q = map(int, input().split())
+# P = [0]*n
+# for _ in range(q):
+#   e, x = map(int, input().split())
+#   if e == 1:
+#     P[x-1] += 1
+#   elif e == 2:
+#     P[x-1] = 2
+#   else:
+#     print('Yes' if P[x-1] == 2 else 'No')
+
+#C
+N = int(input())
+list = []
+for i in range(1,N):
+    list.append(i)
+print(list)
+    
