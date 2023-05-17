@@ -1,14 +1,12 @@
-N,K = map(int,input().split())
+N = int(input())
 A = list(map(int,input().split()))
-left = A[0]
-right = A[N-1]
-while left < right:
-    mid = (left + right)/2
-    if mid>K:
-        right = mid
-    else:
-        left = mid
-if left == N:
-    print(-1)
-else:
-    print(left)
+B = list(map(int,input().split()))
+count = 0
+point= 0
+for i,str in enumerate(A):
+    if A[i] == B[i]:
+        count += 1
+    if str in B:
+        point += 1
+print(count)
+print(point-count)
