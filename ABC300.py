@@ -6,3 +6,9 @@
 #     print("YES")
 #   else:
 #     print("NO")
+
+#B
+H,W = map(int,input().split())
+for i in range(H):
+    A = list(input().split())
+    B = list(input().split())
