@@ -37,4 +37,11 @@
 #         n += i
 # if c-T<=int(A[0]):
 #     print(int(A[0])-(c-T))
+
+#C
+N,T = map(int,input().split())
+A = list(map(int,input().split()))
+count = 0
+while count>T:
+    print(count)
             
