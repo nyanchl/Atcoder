@@ -17,27 +17,28 @@
 #     print("A")
 
 #B
-N = int(input())
-A = list(map(int,input().split()))
-B = []
+# N = int(input())
+# A = list(map(int,input().split()))
+# B = []
 
-for i in range(len(A)-1):
-  if A[i]>A[i+1]:
-    for j in range(A[i]-A[i+1]):
-      B.append(A[i]-j)
-  elif A[i]<A[i+1]:
-    for j in range(A[i+1]-A[i]):
-      B.append(A[i]+j)
+# for i in range(len(A)-1):
+#   if A[i]>A[i+1]:
+#     for j in range(A[i]-A[i+1]):
+#       B.append(A[i]-j)
+#   elif A[i]<A[i+1]:
+#     for j in range(A[i+1]-A[i]):
+#       B.append(A[i]+j)
       
-B.append(A[N-1])
+# B.append(A[N-1])
 
-for i in range(len(B)):
-  print(B[i],end=" ")
+# for i in range(len(B)):
+#   print(B[i],end=" ")
     
         
-# for _ in s:
-#     print(_)
-# print(A[i])
-# print(s)
-# if A[i]==_:
-#     print("hoge")
+#C
+S = input()
+T = input()
+for i in S:
+    if 
+for j in T:
+
