@@ -1,7 +1,9 @@
-A = list(map(int, input().split()))
-B = list(map(int, input().split()))
-
-A_sum = sum(A)
-B_sum = sum(B)
-ans = A_sum - B_sum + 1
-print(ans)
+N = int(input())
+R = list(map(int,input().split()))
+for i in range(1,N):
+    now_num = R[i]
+    index = i - 1
+    while index >= 0 and now_num <= R[index]:
+        R[index+1] = R[index]
+        index -= 1
+    R[index+1] = now_num
