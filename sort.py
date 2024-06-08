@@ -1,10 +1,10 @@
 N = int(input())
-R = list(map(int, input().split()))
-for i in range(1,N):
-    v = R[i]
-    j = i-1
-    while j >= 0 and R[j] > v:
-        R[j+1] = R[j]
-        j -= 1
-    R[j+1] = v
-print(R)
+A = list(map(str,input().split()))
+flag = True
+while flag:
+    flag = False
+    for i in range(N-1,0,-1):
+        if A[i] < A[i-1]:
+            flag = True
+            A[i],A[i-1] = A[i-1],A[i]
+print(A)
