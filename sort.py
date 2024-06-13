@@ -7,4 +7,4 @@ while flag:
         if A[i] < A[i-1]:
             flag = True
             A[i],A[i-1] = A[i-1],A[i]
-print(A)
+print(B)
